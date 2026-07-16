@@ -1,41 +1,41 @@
-# Customer Segmentation in Retail Transactions
+# Segmentación de Clientes en Transacciones Retail
 
-Identifying customer behavior patterns in retail transaction data using
-clustering, in order to generate actionable, business-oriented insights.
+Identificación de patrones de comportamiento de clientes en datos de
+transacciones retail mediante clustering, con el fin de generar hallazgos
+accionables orientados al negocio.
 
-## Problem
+## Problema
 
-Retail companies often treat every customer the same way, even though
-purchasing behavior varies widely across their customer base. Not every
-customer responds to promotions in the same way, generates the same value,
-or buys with the same frequency. This project answers a simple but
-high-impact question: **what types of customers exist within this retail
-business, based on their actual purchasing behavior?**
+Las empresas de retail suelen tratar a todos sus clientes de la misma manera,
+aunque el comportamiento de compra varía enormemente entre ellos. Este proyecto
+responde una pregunta concreta: **¿qué tipos de clientes existen en este negocio,
+según su comportamiento real de compra?**
 
-## Approach
+## Metodología
 
-1. Data cleaning
-2. Customer-level feature engineering (transactions, spend, discount and
-   promotion usage)
-3. Feature scaling
-4. KMeans clustering (k selected via the elbow method)
-5. PCA for visualization
-6. Cluster interpretation
+1. Limpieza de datos
+2. Feature engineering a nivel cliente (transacciones, gasto, uso de descuentos y promociones)
+3. Escalado de variables
+4. Clustering con KMeans (k seleccionado mediante el método del codo)
+5. Visualización con PCA
+6. Interpretación de clusters
 
-## Key findings
+## Hallazgos principales
 
-- **Average ticket size is stable across all segments (~$52)** — the real
-  differentiator between customers is purchase frequency, not basket size.
-- **Five distinct customer profiles emerged**, ranging from infrequent,
-  discount-driven buyers to highly loyal, high-frequency customers who
-  account for disproportionately more revenue.
-- **Business implication:** retention and purchase frequency — not average
-  ticket size — are the most promising levers for increasing customer value.
+- **El ticket promedio es estable en todos los segmentos (~$52)** — lo que
+  realmente diferencia a los clientes es la frecuencia de compra, no el tamaño
+  del carrito.
+- **Cinco perfiles de cliente distintos**, desde compradores esporádicos
+  impulsados por descuentos hasta clientes leales y frecuentes que concentran
+  la mayor parte del valor.
+- **Implicación de negocio:** la retención y la frecuencia de compra — no el
+  ticket promedio — son las palancas más prometedoras para aumentar el valor
+  del cliente.
 
-## Tools
+## Herramientas
 
 Python · pandas · scikit-learn · matplotlib
 
 ## Notebook
 
-[View full notebook →](https://nbviewer.org/github/claudiogaytan28/customer-segmentation-retail/blob/main/01_customer_segmentation.ipynb)
+[Ver notebook completo →](https://nbviewer.org/github/claudiogaytan28/customer-segmentation-retail/blob/main/02_customer_segmentation.ipynb)
