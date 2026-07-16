@@ -38,4 +38,4 @@ Python · pandas · scikit-learn · matplotlib
 
 ## Notebook
 
-[Ver notebook completo →](https://nbviewer.org/github/claudiogaytan28/customer-segmentation-retail/blob/main/02_customer_segmentation.ipynb)
+[Ver notebook completo →](https://github.com/claudiogaytan28/customer-segmentation-retail/blob/main/02_customer_segmentation.ipynb)
